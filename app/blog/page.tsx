@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     url: "https://kirna.at/blog",
     description: "Read latest stories from Indra Purnama's Blog",
     images:
-      "https://res.cloudinary.com/victoreke/image/upload/v1692636087/victoreke/blog.png",
+      "https://res.cloudinary.com/kirnath/image/upload/v1692636087/kirnath/blog.png",
   },
 };
 
