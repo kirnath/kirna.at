@@ -10,7 +10,6 @@ import {
   HiOutlineX,
   HiUser,
 } from "react-icons/hi";
-import Logo from "../../../public/logo.png";
 
 export default function MobileMenu() {
   const [navShow, setNavShow] = useState(false);
@@ -63,9 +62,6 @@ export default function MobileMenu() {
         }`}
       >
         <div className="flex items-center justify-between mt-6 px-8">
-          <Link href="/" onClick={onToggleNav}>
-            <Image src={Logo} width={35} height={35} alt="logo" />
-          </Link>
 
           <button
             aria-label="Toggle Menu"
