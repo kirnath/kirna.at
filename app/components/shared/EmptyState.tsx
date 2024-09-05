@@ -14,8 +14,8 @@ export default function EmptyState({ value, title, icon, message }: stateType) {
       <div className="mb-6 text-4xl text-zinc-500">
         {icon || (
           <Image
-            width={80}
-            height={80}
+            width={160}
+            height={160}
             src={duckImage}
             alt="Yellow duck searching"
           />
