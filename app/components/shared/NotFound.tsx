@@ -12,8 +12,8 @@ export default function NotFoundComponent({ title, description }: props) {
     <main className="min-h-[60vh] max-w-7xl mx-auto md:px-16 px-6">
       <header className="max-w-4xl">
         <Image
-          width={80}
-          height={80}
+          width={160}
+          height={160}
           src={duckImage}
           alt="Yellow duck searching"
         />
