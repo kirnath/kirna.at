@@ -38,8 +38,7 @@ export default async function Project() {
         {projects.length > 0 ? (
           <section className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 mb-12">
             {projects.map((project) => (
-              <Link
-                href={`/projects/${project.slug}`}
+              <span
                 key={project._id}
                 className="flex items-center gap-x-4 dark:bg-primary-bg bg-zinc-50 border border-transparent dark:hover:border-zinc-700 hover:border-zinc-200 p-4 rounded-lg"
               >
@@ -62,7 +61,7 @@ export default async function Project() {
                     {project.tagline}
                   </div>
                 </div>
-              </Link>
+              </span>
             ))}
           </section>
         ) : (
