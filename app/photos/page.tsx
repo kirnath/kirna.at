@@ -36,21 +36,9 @@ export default function Photos() {
     <main className="max-w-7xl mx-auto md:px-16 px-6 lg:mt-32 mt-20">
       <PageHeading
         title="Photos"
-        description="This page is still under construction..."
+        description="No photo yet >.<"
       />
       <figure className="my-6">
-        <Slide delay={0.12} className="flex flex-wrap gap-2">
-          {images.map((image) => (
-            <Image
-              key={image.id}
-              src={image.src}
-              alt="playing guitar"
-              width={350}
-              height={800}
-              className="dark:bg-primary-bg bg-secondary-bg"
-            />
-          ))}
-        </Slide>
       </figure>
     </main>
   );

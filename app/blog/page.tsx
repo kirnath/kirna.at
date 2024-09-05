@@ -25,7 +25,6 @@ export default async function Blog() {
         title="Blog"
         description="Welcome to my blog domain where I share personal stories about things I've learned, projects I'm hacking on and just general findings. I also write for other publications."
       >
-        <Social type="publication" />
       </PageHeading>
 
       <Slide delay={0.1}>
