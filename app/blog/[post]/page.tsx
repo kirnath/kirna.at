@@ -43,23 +43,23 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: `${post.title}`,
-    metadataBase: new URL(`https://victoreke.com/blog/${post.slug}`),
+    metadataBase: new URL(`https://kirna.at/blog/${post.slug}`),
     description: post.description,
     publisher: post.author.name,
     keywords: post.tags,
     alternates: {
       canonical:
-        post.canonicalLink || `https://victoreke.com/blog/${post.slug}`,
+        post.canonicalLink || `https://kirna.at/blog/${post.slug}`,
     },
     openGraph: {
       images:
         urlFor(post.coverImage?.image).width(1200).height(630).url() ||
         fallbackImage,
-      url: `https://victoreke.com/blog/${post.slug}`,
+      url: `https://kirna.at/blog/${post.slug}`,
       title: post.title,
       description: post.description,
       type: "article",
-      siteName: "victoreke.com",
+      siteName: "kirna.at",
       authors: post.author.name,
       tags: post.tags,
       publishedTime: post._createdAt,

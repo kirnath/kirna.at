@@ -8,7 +8,7 @@ import { projectId, dataset } from "./lib/env.api";
 
 export default defineConfig({
   name: "victoreke",
-  title: "victoreke.com",
+  title: "kirna.at",
   basePath: "/studio",
   projectId,
   dataset,

@@ -19,13 +19,13 @@ const images = [
 ];
 
 export const metadata: Metadata = {
-  title: "Photos | Victor Eke",
-  metadataBase: new URL("https://victoreke.com/photos"),
-  description: "Explore photos taken by Victor Eke",
+  title: "Photos | Indra Purnama",
+  metadataBase: new URL("https://kirna.at/photos"),
+  description: "Explore photos taken by Indra Purnama",
   openGraph: {
-    title: "Photos | Victor Eke",
-    url: "https://victoreke.com/photos",
-    description: "Explore photos taken by Victor Eke",
+    title: "Photos | Indra Purnama",
+    url: "https://kirna.at/photos",
+    description: "Explore photos taken by Indra Purnama",
     images:
       "https://res.cloudinary.com/victoreke/image/upload/v1692635149/victoreke/photos.png",
   },
