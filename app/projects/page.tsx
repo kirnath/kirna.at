@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://kirna.at/projects",
     description: "Explore projects built by Indra Purnama",
     images:
-      // "https://res.cloudinary.com/kirnath/image/upload/v1692636087/kirnath/projects.png",
+      "https://res.cloudinary.com/kirnath/image/upload/v1692636087/kirnath/projects.png",
   },
 };
 

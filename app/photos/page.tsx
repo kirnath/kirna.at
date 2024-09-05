@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     url: "https://kirna.at/photos",
     description: "Explore photos taken by Indra Purnama",
     images:
-      // "https://res.cloudinary.com/kirnath/image/upload/v1692635149/kirnath/photos.png",
+      "https://res.cloudinary.com/kirnath/image/upload/v1692635149/kirnath/photos.png",
   },
 };
 
