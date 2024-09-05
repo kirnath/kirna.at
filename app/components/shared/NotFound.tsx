@@ -1,5 +1,5 @@
 import Image from "next/image";
-import duckImage from "@/public/searching-duck.gif";
+import duckImage from "@/public/sticker_19.gif";
 import FeaturedPosts from "../pages/FeaturedPosts";
 
 type props = {
