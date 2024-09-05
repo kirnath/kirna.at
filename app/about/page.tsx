@@ -41,8 +41,7 @@ export default async function About() {
               <div className="order-2 lg:order-none">
                 <Slide>
                   <h1 className="font-incognito font-semibold tracking-tight sm:text-5xl text-3xl lg:leading-tight basis-1/2 mb-8">
-                    I&apos;m {data.fullName}. I live in {data.location}, where I
-                    build the future.
+                    I&apos;m <span className="text-amber-500">{data.fullName}</span>. Based in {data.location}, a dreamer building the future.
                   </h1>
 
                   <div className="dark:text-zinc-400 text-zinc-600 leading-relaxed">

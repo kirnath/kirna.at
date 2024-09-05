@@ -25,7 +25,7 @@ export default function Footer() {
                     height={20}
                     alt="sanity logo"
                   />{" "}
-                  Sanity
+                  +
                 </a>
               </li>
               <li>
@@ -41,7 +41,6 @@ export default function Footer() {
                     height={20}
                     alt="nextjs logo"
                   />{" "}
-                  Next.js
                 </a>
               </li>
             </ul>
